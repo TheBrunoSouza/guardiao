@@ -40,7 +40,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/areas') }}">Áreas</a></li>
                 <li><a href="{{ url('/clientes') }}">Clientes</a></li>
-                <li><a href="{{ url('/paises') }}">Países</a></li>
+                <li><a href="{{ url('/cidades') }}">Cidades</a></li>
                 <li><a href="{{ url('/estados') }}">Estados</a></li>
             </ul>
 
