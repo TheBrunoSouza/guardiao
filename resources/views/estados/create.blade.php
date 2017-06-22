@@ -26,7 +26,7 @@
         </div>
 
         <div class="form-group">
-            {!! Form::submit('Criar País', ['class'=>'btn btn-primary'])!!}
+            {!! Form::submit('Criar Estado', ['class'=>'btn btn-primary'])!!}
         </div>
 
         {!! Form::close() !!}

@@ -28,7 +28,7 @@
                 @foreach($cidades as $cidade)
                     <tr>
                         <td>{{$cidade->nome}} </td>
-                        <td>{{$cidade->id_estado}} </td>
+                        <td>{{$cidade->estado->nome}} </td>
                         <td>
                             <a href="{{route ('cidades.edit', ['id'=>$cidade->id])}}" class="btn-sm btn-success">Editar</a>
                             <a href="{{route ('cidades.destroy', ['id'=>$cidade->id])}}" class="btn-sm btn-danger">Remover</a>
